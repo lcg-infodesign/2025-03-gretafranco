@@ -1,8 +1,80 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
+ body {
+      background: #0e0f12;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
 
-canvas {
-  display: block;
+    h2 {
+      margin-bottom: 20px;
+      margin-top: -10px;
+      font-weight: 300;
+      font-size: smaller;
+      letter-spacing: 0.5px;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+      margin-top: -10px;
+      font-weight: 300;
+      font-size:x-small;
+      letter-spacing: 0.5px;
+    }
+    #map-card {
+      background: #16181d;
+      border-radius: 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      padding: 20px;
+      width: 90%;
+      max-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #canvas-wrapper {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 16px;
+      position: relative;
+      min-height: 240px;
+    }
+    canvas { display:block; }
+    /* Messaggi overlay semplici per debug */
+    #error-overlay {
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      background: rgba(0,0,0,0.6);
+      color: #f88;
+      padding: 8px 12px;
+      border-radius: 8px;
+      display: none;
+      z-index: 20;
+      font-size: 14px;
+    }
+
+    #legend {
+  margin-top: 12px;
+  padding: 12px;
+  background: rgba(0,0,0,0.7);
+  border: 1.5px solid #FF9933;
+  border-radius: 8px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  max-width: 600px;
+}
+#legend ul {
+  margin: 6px 0 0 16px;
+  padding: 0;
 }
