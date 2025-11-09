@@ -175,7 +175,7 @@ function drawInfoBox(v) {
 
   // disegno box
   fill(0, 200); // colore sfondo box
-  stroke("#FF9933"); // colore bordo
+  stroke("#FE820A"); // colore bordo
   strokeWeight(2); // spessore bordo
   rect(bx, by, boxW, boxH, 8); // disegno rettangolo
 

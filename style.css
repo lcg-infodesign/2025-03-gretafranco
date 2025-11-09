@@ -1,7 +1,7 @@
  body {
       background: #000000;
       font-family: "Helvetica", sans-serif;
-      color: #FF9933;
+      color: #FE820A;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -30,7 +30,7 @@
       letter-spacing: 0.5px;
     }
     #map-card {
-      background: #f6c390;
+      background: #ffffff;
       border-radius: 20px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.3);
       padding: 20px;
@@ -44,6 +44,7 @@
       width: 100%;
       overflow: hidden;
       border-radius: 16px;
+       border: 3px solid #FE820A;
       position: relative;
       min-height: 240px;
     }
@@ -66,7 +67,7 @@
   margin-top: 12px;
   padding: 12px;
   background: rgba(0,0,0,0.7);
-  border: 3px solid #FF9933;
+  border: 3px solid #FE820A;
   border-radius: 8px;
   color: white;
   font-family: "Helvetica", sans-serif;
