@@ -149,7 +149,7 @@ function drawInfoBox(v) {
   push();
   textAlign(LEFT, TOP); // testo in alto a sinistra
   textSize(14); // dimensione testo
-  textFont("Poppins"); // font
+  textFont("Helvetica"); // font
 
   const lines = [
     `🌋 ${v.name}`, // nome vulcano

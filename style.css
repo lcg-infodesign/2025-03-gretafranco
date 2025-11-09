@@ -1,7 +1,7 @@
  body {
-      background: #0e0f12;
+      background: #000000;
       font-family: "Helvetica", sans-serif;
-      color: white;
+      color: #FF9933;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -30,7 +30,7 @@
       letter-spacing: 0.5px;
     }
     #map-card {
-      background: #16181d;
+      background: #f6c390;
       border-radius: 20px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.3);
       padding: 20px;
@@ -66,7 +66,7 @@
   margin-top: 12px;
   padding: 12px;
   background: rgba(0,0,0,0.7);
-  border: 1.5px solid #FF9933;
+  border: 3px solid #FF9933;
   border-radius: 8px;
   color: white;
   font-family: "Helvetica", sans-serif;
