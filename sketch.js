@@ -1,5 +1,5 @@
 // File della mappa e CSV
-const MAP_FILE = "mondo.png";
+const MAP_FILE = "mondo.jpg";
 const CSV_FILE = "data.csv";
 
 let worldImg, table;// immagine della mappa e dati CSV
