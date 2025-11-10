@@ -9,6 +9,9 @@ let selected = null;// vulcano selezionato
 
 // carico i vari file
 function preload() {
+  // mappa
+  worldImg = loadImage(MAP_FILE,);
+
   // CSV
   table = loadTable(CSV_FILE, "csv", "header");
 }
